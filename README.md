@@ -1,5 +1,6 @@
 #  ACE 反作弊能力范围分析报告
 
+
 **分析对象**：（`xxxx.exe`）随附的 ACE（Anti-Cheat Expert）反作弊套件
 **分析路径**：`E:\code\ai\xxxx\game\\AntiCheatExpert\`
 **分析日期**：2026-10-19
@@ -487,7 +488,7 @@ src\main.cpp / files.cpp / registry.cpp / services.cpp / compatiblity.cpp
                            │ cmd_id / body_len  命令与处罚下发
                            ▼
      游戏服务器 (80 个硬编码 IP)        HTTP: down.anticheatexpert.com (更新)
-                                      HTTP-DNS: 119.29.29.29
+                                      HTTP-DNS: 119.xx.xx.xx
                                       HTTPS: /cgi-bin/susup/{upload,infocheck}
 ```
 
